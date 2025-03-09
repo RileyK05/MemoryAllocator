@@ -1,0 +1,5 @@
+C:/Users/riley/source/repos/MemoryAllocator/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/riley/source/repos/MemoryAllocator/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/riley/source/repos/MemoryAllocator/out/build/x64-debug/MemoryAllocator/CMakeFiles/CMakeTarget.dir
+C:/Users/riley/source/repos/MemoryAllocator/out/build/x64-debug/MemoryAllocator/CMakeFiles/edit_cache.dir
+C:/Users/riley/source/repos/MemoryAllocator/out/build/x64-debug/MemoryAllocator/CMakeFiles/rebuild_cache.dir
