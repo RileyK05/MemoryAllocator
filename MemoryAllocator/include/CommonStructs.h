@@ -5,6 +5,23 @@
 
 const int TICKER_SIZE = 8;
 
+enum class InfoType {
+    EARNINGS_INFO,
+    BALANCE_SHEET_INFO,
+    CASH_FLOW_INFO,
+    COMPANY,
+    RATIOS,
+    VALUATION_METRICS,
+    TECHNICAL_INDICATORS,
+    DIVIDEND_INFO,
+    ANALYST_ESTIMATES,
+    OWNERSHIP_INFO,
+    GROWTH_METRICS,
+    INDUSTRY_METRICS,
+    RISK_METRICS,
+    HISTORICAL_PRICE_POINT
+};
+
 struct EarningsInfo {
     char ticker[TICKER_SIZE];
     std::array<long double, 5> fiveYearRevenue, fiveYearEarnings, fiveYearEBITDA, fiveYearOperatingExpenses;

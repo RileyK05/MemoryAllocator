@@ -28,5 +28,5 @@ public:
 	Node* removeCompany(Company company);
 
 	Node* getCompany(int id, char tckr[TICKER_SIZE]);
-	Node* editCompany(int id, char tckr[TICKER_SIZE]);
+	Node* editCompany(int id, char tckr[TICKER_SIZE], Company edits);
 };

@@ -106,7 +106,11 @@ Node* FixedPool::getCompany(int id, char tckr[TICKER_SIZE]) {
     return nullptr;
 }
 
-Node* FixedPool::editCompany(int id, char tckr[TICKER_SIZE]) {
-    return nullptr;
+Node* FixedPool::editCompany(int id, char tckr[TICKER_SIZE], Company edits) {
+    Node* temp = head;
+    while (temp) {
+        if (temp->insertId == id && temp->company.ticker == tckr) {
+            temp->company = edits;
+        }
+    }
 }
-
